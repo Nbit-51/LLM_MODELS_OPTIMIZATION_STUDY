@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights — never commit these (multi-GB)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+models/
+model_cache/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Colab artifacts
+*.log
+drive/
+
+# Large data files
+*.h5
+*.hdf5
+*.parquet
+*.arrow
